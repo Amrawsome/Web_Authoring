@@ -1,0 +1,220 @@
+header, nav,main,footer,figure,section,article{ display: block;}
+/********************************************************************************/		
+/*  styles for all pages*/
+/********************************************************************************/
+/*start of header*/
+
+header ul h3 a{
+	color:black;
+	font-size: 23px;
+}
+header ul h3 a:hover{
+	color: white;
+}
+header ul h3 {
+	border-style:double;
+	width:350px;
+	text-align:center;
+}
+header{
+	width:auto;
+	height:150px;
+	background-color: #bcbcbc;
+	font:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+}
+header h1{
+	color: black;
+	text-align:center;
+}
+/* End of Header*/
+/* Start of Body*/
+body{
+	background-color: #ffffff;
+	color: #000000;
+	font:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+body tr{
+	text-align:center;
+	background-color:#bcbcbc;
+}
+body th{
+	background-color:black;
+	color:#bcbcbc;
+}
+body td{
+	padding: 8px 20px;
+	text-align:center;
+	vertical-align:center;
+	background-color:#bcbcbc;
+}
+/* End of Body */
+/* Start of Footer*/
+footer{
+	background-color:black;
+	width:auto;
+	height:200px;
+	margin-top: 400px;
+	color:white;
+}
+footer ul{
+	text-align:center;
+	font-size: 40;
+}
+/*end of Footer*/
+
+/* Start of Login*/
+div.login-container{
+	border-radius: 25px;
+	background-color: #bcbcbc;
+	width: 500px;
+	height: 360px;
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 7px 15px;
+}
+.login-container h3{
+	font:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 30px;
+}
+
+.login-container h1{
+	font:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+.login-container input{
+	display: inline-block;
+	float:right;
+	padding: 8px 30px;
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.login-container a{
+	display: inline-block;
+	float:right;
+	font: normal 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+	width: auto;
+	color:blue;
+	padding: 10px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration:underline;
+}
+.login-container a:hover{
+	color:purple;	
+}
+/*end Login*/
+/* Search page category drop down section*/
+div.Cate{
+	border-radius: 25px;
+	background-color: #bcbcbc;
+	text-align:center;	
+}
+.cate h3{
+	font-size:40px;
+}
+.Cate select{
+	padding: 10px 20px;
+	font-size: 20px;
+	width: auto;
+}
+.Cate option{
+	padding: 10px 20px;
+	font-size: 20px;
+	width: auto;
+}
+/* end of category section */
+/* category search button */
+div.catsearch{   
+	text-align: center;	
+}
+.catsearch input{
+	padding: 8px 20px;
+	font-size: 20px;
+	width: auto;
+}
+/*  end of categorysearch button */
+/* start of search section*/
+div.search{
+border-radius: 25px;
+	background-color: #bcbcbc;
+	text-align:center;
+}
+.search h3{
+	font-size:40px;
+}
+.search input{
+	padding: 8px 20px;
+	font-size: 20px;
+	width: 320px;
+}
+/* End of serach section*/
+/* Search Button*/
+div.searchbut{
+	text-align: center;
+}
+.searchbut input{
+	padding: 8px 20px;
+	font-size: 20px;
+	width: auto;
+}
+	
+/* registration box*/
+div.registration{
+	border-radius: 25px;
+	background-color: #bcbcbc;
+	width: 500px;
+	height: 630px;
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	padding: 7px 10px;
+}
+.registration h1{
+	font:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-decoration:underline;
+}
+.registration h3{
+	float:center;
+	padding-bottom:10px;
+	font:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.registration input{
+	padding: 6px 10px;
+	display: inline-block;
+	float:right;
+	font-size: 15px;
+	width:60%;
+}
+/*registration button*/
+div.regbut{
+	font: normal 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+	width: auto;
+	padding: 10px 20px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.regbut input{
+	padding: 7px 10px;
+	font-size:20px;
+}
+.regbut a{
+	color:blue;
+	text-decoration:underline;
+}
+/**success text after reg */
+.success p{
+	font-size:40px;
+}
+.success a{
+	font-size:40px;
+}
